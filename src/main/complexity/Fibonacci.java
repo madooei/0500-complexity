@@ -7,8 +7,7 @@ public final class Fibonacci {
     // This class should not be instantiated!
   }
 
-  // Assumes n >= 0. Computes the nth Fibonacci number straight from the
-  // recursive definition: O(2^n) time, O(n) space on the call stack.
+  // Assumes n >= 0.
   public static int fibRecursive(int n) {
     if (n <= 1) {
       return n;
@@ -16,8 +15,7 @@ public final class Fibonacci {
     return fibRecursive(n - 1) + fibRecursive(n - 2);
   }
 
-  // Assumes n >= 0. Builds the sequence up from the bottom in an array, so
-  // each value is computed once: O(n) time, O(n) auxiliary space.
+  // Assumes n >= 0.
   public static int fibWithArray(int n) {
     if (n <= 1) {
       return n;
@@ -31,8 +29,7 @@ public final class Fibonacci {
     return f[n];
   }
 
-  // Assumes n >= 0. Keeps only the last two values as a window that slides
-  // up the sequence: O(n) time, O(1) auxiliary space.
+  // Assumes n >= 0.
   public static int fibWithTwoVariables(int n) {
     if (n <= 1) {
       return n;
