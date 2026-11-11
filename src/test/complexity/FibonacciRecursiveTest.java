@@ -5,6 +5,6 @@ public class FibonacciRecursiveTest extends FibonacciTest {
 
   @Override
   protected int fib(int n) {
-    return Fibonacci.fibRecursive(n);
+    return FibonacciRecursive.fib(n);
   }
 }
