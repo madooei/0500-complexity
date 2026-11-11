@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Tests for the Fibonacci methods. Each test is one scenario. The scenarios
  * are written once here; each version gets its own subclass that says which
- * method to call, so you can run the suite for one version at a time.
+ * class to call, so you can run the suite for one version at a time.
  */
 public abstract class FibonacciTest {
 

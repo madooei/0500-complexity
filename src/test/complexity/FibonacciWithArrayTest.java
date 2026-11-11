@@ -5,6 +5,6 @@ public class FibonacciWithArrayTest extends FibonacciTest {
 
   @Override
   protected int fib(int n) {
-    return Fibonacci.fibWithArray(n);
+    return FibonacciWithArray.fib(n);
   }
 }
