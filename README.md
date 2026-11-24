@@ -44,7 +44,7 @@ code/
 
 The scenarios live in one abstract test class (`FibonacciTest`). The small classes that extend it do nothing but say which class to call, so the same scenarios run against every version without being copied.
 
-## What's here
+## Contents
 
 Each version is its own class, and every class has the same method, `fib`.
 
